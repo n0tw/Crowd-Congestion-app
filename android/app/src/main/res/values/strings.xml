@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">angthesis</string>
+    <string name="title_activity_main">angthesis</string>
+    <string name="package_name">com.sensecampus.angthesis</string>
+    <string name="custom_url_scheme">com.sensecampus.angthesis</string>
+</resources>
