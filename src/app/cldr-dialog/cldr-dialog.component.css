@@ -1,0 +1,22 @@
+button {
+    cursor: pointer;
+    background-color: #4285F4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #357ae8;
+  }
+  :host {
+    z-index: 4;
+    align-self: right;
+    display:inline-table;
+    width: 100%; 
+    margin: 5px;
+  }
+  
+  

@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: rgb(78, 18, 76);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+#charts-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px; 
+  background-color: #ba72b9 ;
+}
+
+#charts-wrapper {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#charts-wrapper h3 {
+  margin: 0 0 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+#charts-wrapper p {
+  margin: 0 0 10px;
+  color: #555;
+}
+
+#charts-wrapper ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+#charts-wrapper li {
+  padding: 3px 0;
+}
+
+
+#buslines{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.chart-section{
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(56, 57, 55, 0.722);
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  padding: 8px 4px;
+  background-color: rgb(200, 212, 212)  ;
+}
+
+.chart-section div{
+  background-color: rgb(200, 212, 212) !important;
+}
+
+.chart-container {
+  display: flex; 
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  min-height: 120px;
+  max-height: 270px;
+  height: auto;
+}
+
+.chart-title {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+}
+
+.chart-title h2 {
+  margin-right: auto;
+}
+
+.title{
+  margin-left: 10px;
+}
+
+.svg {
+  float: right;
+  margin-top: 0%;
+  width: 25px;
+  height: 25px;
+}
+
+.count {
+  float: right;
+}
+
+.chart-container {
+  width: 100%; 
+}
+
+.canvas {
+  width: 100%;
+  height: auto; 
+  float: left;
+}
+#lineSizeChart{
+  float: left;
+}
+
+
+@media (max-width: 500px) {
+   .custom-info-window-inner {
+     font-size: 0.7rem; 
+   }
+ 
+   .title {
+     font-size: 0.7rem;
+   }
+ 
+   .section-header {
+     font-size: 0.7rem;
+   }
+ 
+   .buslines-table th,
+   .buslines-table td {
+     font-size: 0.7rem;
+     padding: 1px;
+     margin: 1px;
+   }
+ 
+   .svg {
+     width: 30px;
+     height: 30px;
+   }
+ 
+ 
+   #current_LineSize {
+     font-size: 0.7rem;
+   }
+   .chart-container{
+    font-size: 0.5em;
+     padding: 0;
+     margin: 0;
+     width: 100%;
+     min-width: 80px;
+     min-height: 80px; 
+   }
+   .chart-section{
+     width:100%;
+     min-width: 130px;
+     padding: 0;
+     margin: 0;
+   }
+
+   ::ng-deep .gm-style-iw {
+    min-width: 150px !important;
+    max-width: 200px !important;
+    padding: 10px;
+    }
+  
+ }

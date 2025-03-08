@@ -1,0 +1,37 @@
+<div class="custom-info-window-inner">
+  <div>
+    <h3 class="title">{{ title }}</h3>
+  </div>
+
+  <section id="charts-wrapper">
+    <section id="buslines" class="chart-section">
+      <div>
+        <h4 class="section-header">Bus Information</h4>
+        <table class="buslines-table">
+          <thead>
+            <tr>
+              <th>Line & Route</th>
+              <th>Departure Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let busline of buslines">
+              <td>{{ busline[0] }}</td>
+              <td>{{ busline[1] }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="line-sizes" class="chart-section">
+      <div class="chart-title"></div>
+      <h4 class="section-header">Queue Length</h4>
+      <h4 id="current_LineSize" class="count" style="display: inline-block; vertical-align: middle; padding-right: 10px; width: 2em; text-align: right;">NaN</h4>
+      <img class="svg" src="media/users.svg" alt="Crowd Icon">
+      <div class="chart-container">
+        <canvas id="lineSizeChart"></canvas>
+      </div>
+    </section>
+  </section>
+</div>

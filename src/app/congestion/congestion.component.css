@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#charts-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    gap: 15px; 
+}
+
+.chart-section{
+    background:   linear-gradient(180deg, #d6edfc76, #d6edfc76,  #d6edfc76);
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 605px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.chart-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px; 
+    max-height: 270px;
+    height: auto;
+}
+
+.chart-title {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.chart-title h2 {
+    margin-right: auto; 
+}
+
+
+.svg {
+    float: right;
+}
+
+.count {
+    float: right;
+}
+
+.chart-container {
+    width: 100%; 
+}
+
+.canvas {
+    width: 100%; 
+    height: auto; 
+}
+
+.capacity-section {
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 100%;
+    max-width: 608px;
+}
+
+.capacity-title {
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.capacity-container {
+    background-color: #e8e5e6;
+    border-radius: 8px;
+    overflow: hidden;
+    max-height: 20px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.capacity-axis {
+    display: flex;
+    justify-content: space-between; 
+    width: 90%; 
+    margin: 0 auto; 
+    font-size: 0.75rem; 
+    color: #444; 
+    padding: 3px 0px 0px 10px;
+}
+
+.capacity-bar {
+    height: 30px;
+    border-radius: 5px 0 0 5px; 
+    background-color: #99b1ba;
+    width: 50%; 
+    text-align: right;
+    box-sizing: border-box;
+    line-height: 30px;
+    color: rgb(135, 135, 135);
+}
+
+#refresh{
+    border-color: #8da3ae;
+    background-image: linear-gradient(145deg, #dbecf868, #d9d9d96b, #c6e1f461);
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 5px 25px 5px;
+    box-shadow: 0 2px 2px #545656;
+}
+
+@media (max-width: 1080px) { 
+    .menu-section {
+        padding: 1px; 
+    }
+    .menu-item h3 {
+        font-size: 14px; 
+    }
+    .menu-blob p {
+        font-size: 10px; 
+    }
+    .chart-section{
+        max-width: 305px;
+        padding: 8px 4px;
+    }
+}

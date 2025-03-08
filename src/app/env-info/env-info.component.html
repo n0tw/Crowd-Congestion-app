@@ -1,0 +1,45 @@
+<section id="date">
+    <mat-form-field appearance="fill" *ngIf="isSmallScreen">
+    <mat-label class="hidden-input">Start Date</mat-label>
+    <input matInput [matDatepicker]="startPicker" [(ngModel)]="startDate" />
+    <mat-datepicker-toggle matSuffix [for]="startPicker"></mat-datepicker-toggle>
+    <mat-datepicker #startPicker></mat-datepicker>
+    </mat-form-field>
+    
+    <mat-form-field appearance="fill" *ngIf="isSmallScreen">
+    <mat-label class="hidden-input">End Date</mat-label>
+    <input matInput [matDatepicker]="endPicker" [(ngModel)]="endDate" />
+    <mat-datepicker-toggle matSuffix [for]="endPicker"></mat-datepicker-toggle>
+    <mat-datepicker #endPicker></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill"  *ngIf="!isSmallScreen">
+    <mat-label>Start Date</mat-label>
+    <input matInput [matDatepicker]="startPicker" [(ngModel)]="startDate" />
+    <mat-datepicker-toggle matSuffix [for]="startPicker"></mat-datepicker-toggle>
+    <mat-datepicker #startPicker></mat-datepicker>
+    </mat-form-field>
+    
+    <mat-form-field appearance="fill" *ngIf="!isSmallScreen">
+    <mat-label>End Date</mat-label>
+    <input matInput [matDatepicker]="endPicker" [(ngModel)]="endDate" />
+    <mat-datepicker-toggle matSuffix [for]="endPicker"></mat-datepicker-toggle>
+    <mat-datepicker #endPicker></mat-datepicker>
+    </mat-form-field>
+    
+    <button mat-raised-button class="custom-button" (click)="fetchData()">Submit</button>
+    <button id="refresh" (click)="refresh()"style="display: inline-block; vertical-align: middle; padding-right: 10px; text-align: right; ">
+        <h4 style="display: inline-block; padding-bottom: 0px; margin-bottom: 2px; padding-right: 5px; color: rgba(24, 24, 24, 0.871);">Refresh</h4>
+        <img src="media/reload.png" alt="Refresh" style="width: 24px; height: 22px; margin:0px 0px 0px 0px;  padding: 10px 0px 0px 5px; " >
+    </button>
+</section>
+<section id="charts-wrapper">
+    <section *ngFor="let table of tables" class="envchart">
+    <div ></div>
+    <h2 class="chart-title" style="display: inline-block; vertical-align: middle; padding-left: 15px;">{{ table.name }}</h2>
+    <div class="chart-container">
+        <canvas [id]="table.chartId"></canvas>
+    </div>
+    </section>
+</section>
+  
