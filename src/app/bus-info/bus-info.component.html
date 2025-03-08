@@ -1,0 +1,90 @@
+
+
+<div class="wrapper">
+  <div class="slide map-slide" [ngClass]="{'hidden': isTableOpen}">
+    <div>
+      <google-map 
+      #googleMapInstance
+      height="650px"
+      [width]="'100%'"
+        [center]="center"
+        [zoom]="zoom"
+        (mapClick)="moveMap($event)"
+        (mapMousemove)="move($event)"
+        >
+        <map-marker
+          *ngFor="let marker of markers; let i = index"
+          [position]="marker.position"
+          
+          [icon]="marker.icon"
+          (mapClick)="markerClicked(marker, infoWindows[i], mapMarkers.toArray()[i])"
+        ></map-marker>
+      </google-map>
+      <div class="Heatmap" >
+        <input type="checkbox" (click)="toggleHeatmap()" value="no"> 
+        <h4>Heatmap View</h4>
+      </div>
+    </div>
+  </div>
+  
+  <button class="toggle-menu-button" (click)="toggleMenu()">></button>
+  
+  <div class="slide table-slide" [ngClass]="{'visible': isTableOpen}">
+    <div id="table">
+      <div id="data-table-container">
+        <table id="data-table" #dataTable>
+          <thead>
+            <tr>
+              <th>678 Chancellor's Office</th>
+              <th>655 Polytechnio</th>
+              <th>654 Conference Center</th>
+              <th>679 Physics Department</th>
+              <th>465 Geology Department</th>
+              <th>537 Geology Department</th>
+              <th>467 Medicine</th>
+              <th>536 Medicine</th>
+              <th>534 Hospital</th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+          </tbody>
+        </table>
+      </div>
+    </div> 
+  </div>
+</div>
+
+
+
+<div class="dropdown">
+  <h5>Search for a bus line</h5>
+  <div id="search-input-dropdown">
+    <input
+      #searchInput
+      type="text"
+      id="searchInput"
+      [(ngModel)]="searchText"
+      (focus)="toggleDropdown(true)"
+      (input)="filterDropdown()"
+      (blur)="toggleDropdown(false)"
+      placeholder="Search..."
+    />
+    <div class="dropdown-content" *ngIf="isDropdownVisible && filteredOptions.length > 0">
+      <a *ngFor="let option of filteredOptions" 
+        [attr.data-value]="option.value" 
+        (click)="onOptionSelected(option)">
+        {{ option.label }}
+      </a>
+    </div>
+  </div>
+  <h5>Specify time (optional)</h5>
+  <input id="timeinput" type="text" placeholder="HH:MM (e.g. 14:20)">
+</div>
+
+<button id="enterButton" (click)="handleEnterClick()">Enter</button>
+
+
+<div id="location_checkbox">
+  <input type="checkbox" class="l1" id="location" (click)="getUserLocation($event)" name="Read location" value="no">
+  <label for="location" class="l1">Use location</label><br>
+</div>

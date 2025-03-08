@@ -1,0 +1,63 @@
+:host {
+    background: #2575fc;/* linear-gradient(45deg, #6a11cb, #2575fc); Choose gradient colors */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+/* Center the auth-container on the screen */
+.auth-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 100vh;           /* Full viewport height */
+    
+}
+  
+  /* Style for the form box */
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #afeeff2c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+  
+.auth-form input {
+    margin: 10px 0;
+    padding: 10px;
+    background-color:#fbeffc;
+    border: 1px solid #f2eb25;
+    border-radius: 4px;
+}
+
+#logsign {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+#signup{
+    margin: 20px;
+    margin-top: 0px;
+    padding: 5px;
+    background-color: #35093c;
+}
+  
+.auth-form button {
+    
+    padding: 10px;
+    /* margin-top: 0%; */
+    background-color: #ae17c9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.auth-form button:hover {
+    background-color: #f2eb25;
+}
+  
