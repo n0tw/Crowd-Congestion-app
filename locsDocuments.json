@@ -1,0 +1,392 @@
+[
+  {
+    "_id": "67acd9cd32c04b603607233c",
+    "id": "ACI40cd1bf4cded48915d0d0fbfd57cbeadb1042c357856dab6725516ff9a84fb7f19a4a6a629a2ba9f9e94b5e4eb64434e492144c4488593d375f6b294cf4e5de7",
+    "anonymizedId": {
+      "type": "Text",
+      "value": 175
+    },
+    "owner": {
+      "type": "Text",
+      "value": "40cd1bf4cded48915d0d0fbfd57cbeadb1042c357856dab6725516ff9a84fb7f19a4a6a629a2ba9f9e94b5e4eb64434e492144c4488593d375f6b294cf4e5de7"
+    },
+    "type": "AnonymousCommuterId",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          38.29150224431456,
+          21.78712332013508
+        ]
+      }
+    },
+    "speed": {
+      "type": "Number",
+      "value": ""
+    },
+    "connectionType": {
+      "type": "Text",
+      "value": "cellular"
+    },
+    "dateCreated": {
+      "type": "DateTime",
+      "value": "2025-02-12T17:26:37.810Z"
+    },
+    "dateModified": {
+      "type": "DateTime",
+      "value": "2025-02-12T23:58:04.086Z"
+    }
+  },
+  {
+    "_id": "67acd9d532c04b603607233e",
+    "id": "ACI38bd70943c55df1e911acd279740c089436b11d3a81922b1b9d3a98c327a4ac80d14665fda020f70814cda0783343a74c0f082d431766ac979e4e324d3198816",
+    "anonymizedId": {
+      "type": "Text",
+      "value": "82ccbc60c80f74561259c0a718f4db1d1560530b4fda3d0f853f4582db291680886bec5f2c4844547717ee8adace3dd6570719804c91b5554e01079a349e014c"
+    },
+    "owner": {
+      "type": "Text",
+      "value": "38bd70943c55df1e911acd279740c089436b11d3a81922b1b9d3a98c327a4ac80d14665fda020f70814cda0783343a74c0f082d431766ac979e4e324d3198816"
+    },
+    "type": "AnonymousCommuterId",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          39.5542528,
+          21.7677824
+        ]
+      }
+    },
+    "speed": {
+      "type": "Number",
+      "value": ""
+    },
+    "connectionType": {
+      "type": "Text",
+      "value": "not wifi"
+    },
+    "dateCreated": {
+      "type": "DateTime",
+      "value": "2025-02-12T17:26:42.657Z"
+    },
+    "dateModified": {
+      "type": "DateTime",
+      "value": "2025-02-12T23:31:58.141Z"
+    }
+  },
+  {
+    "_id": "67acd9e232c04b6036072340",
+    "id": "ACI53beac63b13932a84a251d17b765353e558e0c213604b4b367770477673ae053fbede64b14a48d347089b0d738f699c2201fb7959d8eb62c65c8c3f80be31684",
+    "anonymizedId": {
+      "type": "Text",
+      "value": 177
+    },
+    "owner": {
+      "type": "Text",
+      "value": "53beac63b13932a84a251d17b765353e558e0c213604b4b367770477673ae053fbede64b14a48d347089b0d738f699c2201fb7959d8eb62c65c8c3f80be31684"
+    },
+    "type": "AnonymousCommuterId",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          38.28530691012842,
+          21.7896073443523
+        ]
+      }
+    },
+    "speed": {
+      "type": "Number",
+      "value": ""
+    },
+    "connectionType": {
+      "type": "Text",
+      "value": "cellular"
+    },
+    "dateCreated": {
+      "type": "DateTime",
+      "value": "2025-02-12T17:26:58.952Z"
+    },
+    "dateModified": {
+      "type": "DateTime",
+      "value": "2025-02-12T23:56:36.115Z"
+    }
+  },
+  {
+    "_id": "67acd9f832c04b6036072342",
+    "id": "ACIfbd5b011951925012f0c8b07f902f0227c5c6b36f8da9bbaf9cc6c15786ce7d0867ac74ea7dd90327341fcd2c79381aa494486f435998ad26f557b6f38fd5cd7",
+    "anonymizedId": {
+      "type": "Text",
+      "value": 179
+    },
+    "owner": {
+      "type": "Text",
+      "value": "fbd5b011951925012f0c8b07f902f0227c5c6b36f8da9bbaf9cc6c15786ce7d0867ac74ea7dd90327341fcd2c79381aa494486f435998ad26f557b6f38fd5cd7"
+    },
+    "type": "AnonymousCommuterId",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          38.287460291507344,
+          21.787426102527373
+        ]
+      }
+    },
+    "speed": {
+      "type": "Number",
+      "value": ""
+    },
+    "connectionType": {
+      "type": "Text",
+      "value": "wifi"
+    },
+    "dateCreated": {
+      "type": "DateTime",
+      "value": "2025-02-12T17:27:20.052Z"
+    },
+    "dateModified": {
+      "type": "DateTime",
+      "value": "2025-02-12T23:59:45.675Z"
+    }
+  },
+  {
+    "_id": "67acda0d32c04b6036072344",
+    "id": "ACI9c04bf8e38a1f5bbbbffa6a7e81d80fda31bfaa6e8dfab7ead44d0e33c7a60fcac34b6c227449ffa846a6e5d878251a491d4e41695a9ff0aa6c396fc9a399052",
+    "anonymizedId": {
+      "type": "Text",
+      "value": 88
+    },
+    "owner": {
+      "type": "Text",
+      "value": "9c04bf8e38a1f5bbbbffa6a7e81d80fda31bfaa6e8dfab7ead44d0e33c7a60fcac34b6c227449ffa846a6e5d878251a491d4e41695a9ff0aa6c396fc9a399052"
+    },
+    "type": "AnonymousCommuterId",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          38.29188117585937,
+          21.786651251366973
+        ]
+      }
+    },
+    "speed": {
+      "type": "Number",
+      "value": ""
+    },
+    "connectionType": {
+      "type": "Text",
+      "value": "wifi"
+    },
+    "dateCreated": {
+      "type": "DateTime",
+      "value": "2025-02-12T17:27:41.127Z"
+    },
+    "dateModified": {
+      "type": "DateTime",
+      "value": "2025-02-12T23:59:10.859Z"
+    }
+  },
+  {
+    "_id": "67acda2232c04b6036072346",
+    "id": "ACI616ed9d2dff96da65cd620b7de33966db46cc9db42d7147bf7d752281cbba6ff756b7aefa477fba300e2b410e139486a6dd173ffd13439c054462996a4a0a9cc",
+    "anonymizedId": {
+      "type": "Text",
+      "value": 149
+    },
+    "owner": {
+      "type": "Text",
+      "value": "616ed9d2dff96da65cd620b7de33966db46cc9db42d7147bf7d752281cbba6ff756b7aefa477fba300e2b410e139486a6dd173ffd13439c054462996a4a0a9cc"
+    },
+    "type": "AnonymousCommuterId",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          38.286537212429636,
+          21.78607435395976
+        ]
+      }
+    },
+    "speed": {
+      "type": "Number",
+      "value": ""
+    },
+    "connectionType": {
+      "type": "Text",
+      "value": "wifi"
+    },
+    "dateCreated": {
+      "type": "DateTime",
+      "value": "2025-02-12T17:28:02.200Z"
+    },
+    "dateModified": {
+      "type": "DateTime",
+      "value": "2025-02-12T23:51:40.820Z"
+    }
+  },
+  {
+    "_id": "67acda3732c04b6036072348",
+    "id": "ACI819d46d899614423613c8e9520faa60f2b5ff378d2ffc90235e586cf83a23fe271894cfc1b7961e81e2139887aec4cba315340b5e00d6cead1bd0d72c58e5765",
+    "anonymizedId": {
+      "type": "Text",
+      "value": 51
+    },
+    "owner": {
+      "type": "Text",
+      "value": "819d46d899614423613c8e9520faa60f2b5ff378d2ffc90235e586cf83a23fe271894cfc1b7961e81e2139887aec4cba315340b5e00d6cead1bd0d72c58e5765"
+    },
+    "type": "AnonymousCommuterId",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          38.28799490577176,
+          21.787391846974536
+        ]
+      }
+    },
+    "speed": {
+      "type": "Number",
+      "value": ""
+    },
+    "connectionType": {
+      "type": "Text",
+      "value": "wifi"
+    },
+    "dateCreated": {
+      "type": "DateTime",
+      "value": "2025-02-12T17:28:23.275Z"
+    },
+    "dateModified": {
+      "type": "DateTime",
+      "value": "2025-02-12T23:53:53.191Z"
+    }
+  },
+  {
+    "_id": "67acda4c32c04b603607234a",
+    "id": "ACI7f68b1149a62da5d6a40c5679f23cbd3d00019dd7881fe9c2d29843bc36b7bec791183c7b7191e09156a36d911ea11e8bf1d309e46f289e9d006df8a8a4b1cfc",
+    "anonymizedId": {
+      "type": "Text",
+      "value": 82
+    },
+    "owner": {
+      "type": "Text",
+      "value": "7f68b1149a62da5d6a40c5679f23cbd3d00019dd7881fe9c2d29843bc36b7bec791183c7b7191e09156a36d911ea11e8bf1d309e46f289e9d006df8a8a4b1cfc"
+    },
+    "type": "AnonymousCommuterId",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          38.291620134340526,
+          21.78713404897072
+        ]
+      }
+    },
+    "speed": {
+      "type": "Number",
+      "value": ""
+    },
+    "connectionType": {
+      "type": "Text",
+      "value": "wifi"
+    },
+    "dateCreated": {
+      "type": "DateTime",
+      "value": "2025-02-12T17:28:44.362Z"
+    },
+    "dateModified": {
+      "type": "DateTime",
+      "value": "2025-02-12T23:58:43.267Z"
+    }
+  },
+  {
+    "_id": "67acda6132c04b603607234c",
+    "id": "ACI8b5b60df0aa1eaa60927d2593db2069468ea0ca8f2a92d8562637666267555f1c4666ce3a6688615b6ad1217773ad7bdf443700c97c46ec2592bc8560111f448",
+    "anonymizedId": {
+      "type": "Text",
+      "value": 109
+    },
+    "owner": {
+      "type": "Text",
+      "value": "8b5b60df0aa1eaa60927d2593db2069468ea0ca8f2a92d8562637666267555f1c4666ce3a6688615b6ad1217773ad7bdf443700c97c46ec2592bc8560111f448"
+    },
+    "type": "AnonymousCommuterId",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          38.28784225182975,
+          21.78731796264196
+        ]
+      }
+    },
+    "speed": {
+      "type": "Number",
+      "value": ""
+    },
+    "connectionType": {
+      "type": "Text",
+      "value": "cellular"
+    },
+    "dateCreated": {
+      "type": "DateTime",
+      "value": "2025-02-12T17:29:05.453Z"
+    },
+    "dateModified": {
+      "type": "DateTime",
+      "value": "2025-02-12T23:59:17.564Z"
+    }
+  },
+  {
+    "_id": "67acda7c32c04b603607234e",
+    "id": "ACI679a2f5078608d93ba320920dc65bbf758c955037ae56a5564241e98287e6850e6979fb56d2ea250e7dabad70bf4c8767c2db1531edee1c6d9da403be6722ee4",
+    "anonymizedId": {
+      "type": "Text",
+      "value": 166
+    },
+    "owner": {
+      "type": "Text",
+      "value": "679a2f5078608d93ba320920dc65bbf758c955037ae56a5564241e98287e6850e6979fb56d2ea250e7dabad70bf4c8767c2db1531edee1c6d9da403be6722ee4"
+    },
+    "type": "AnonymousCommuterId",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          38.28634622908583,
+          21.788426396467404
+        ]
+      }
+    },
+    "speed": {
+      "type": "Number",
+      "value": ""
+    },
+    "connectionType": {
+      "type": "Text",
+      "value": "wifi"
+    },
+    "dateCreated": {
+      "type": "DateTime",
+      "value": "2025-02-12T17:29:32.563Z"
+    },
+    "dateModified": {
+      "type": "DateTime",
+      "value": "2025-02-12T23:59:53.416Z"
+    }
+  }
+]

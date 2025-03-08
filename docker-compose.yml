@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  locs:
+    image: mongo:latest  # Pulls the latest MongoDB image
+    container_name: locs # Names the container "locs"
+    ports:
+      - "27017:27017"    # Exposes MongoDB default port to host machine
+    volumes:
+      - mongo_data:/data/db  # Persists MongoDB data even if container is removed
+    restart: always         # Ensures the container restarts automatically if it stops
+
+volumes:
+  mongo_data:  # Defines a named volume for data persistence
