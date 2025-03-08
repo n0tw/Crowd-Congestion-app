@@ -1,0 +1,10 @@
+{
+	"appId": "com.sensecampus.angthesis",
+	"appName": "angthesis",
+	"webDir": "dist",
+	"packageClassList": [
+		"DevicePlugin",
+		"GeolocationPlugin",
+		"CAPNetworkPlugin"
+	]
+}
