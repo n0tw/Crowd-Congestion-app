@@ -1,3 +1,0 @@
-com.sensecampus.angthesis.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
