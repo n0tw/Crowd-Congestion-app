@@ -21,8 +21,8 @@ This is a full-stack real-time **crowd monitoring system** designed for deployme
 
 ## Required apps
 
-Download and install Nodejs from the official Node.js website: https://nodejs.org/
-Download Angular CLI from: https://github.com/angular/angular-cli
+- Download and install Nodejs from the official Node.js website: https://nodejs.org/
+- Download Angular CLI from: https://github.com/angular/angular-cli
 
 ## Development server
 
