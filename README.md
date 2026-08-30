@@ -125,20 +125,6 @@ ng build
 
 The build artifacts are generated in the `dist/` directory.
 
-## Testing
-
-### Unit Tests
-
-```bash
-ng test
-```
-
-The project uses Karma for frontend unit testing.
-
-### End-to-End Testing
-
-The application can be configured with an appropriate end-to-end testing framework.
-
 ## Project Context
 
 This project was developed as my **Electrical & Computer Engineering thesis at the University of Patras**.
