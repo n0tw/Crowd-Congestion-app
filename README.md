@@ -27,42 +27,7 @@ The platform was developed as my **Electrical & Computer Engineering thesis proj
 ## Architecture
 
 The system consists of several interconnected components:
-
-```text
-                 ┌─────────────────────────┐
-                 │     Angular PWA         │
-                 │  Mobile / Desktop UI    │
-                 └────────────┬────────────┘
-                              │
-                         REST APIs
-                              │
-                 ┌────────────▼────────────┐
-                 │    Backend Services     │
-                 │ Python / Node.js        │
-                 └─────┬─────────┬─────────┘
-                       │         │
-              ┌────────▼───┐ ┌──▼──────────┐
-              │   MySQL    │ │  MongoDB    │
-              └────────────┘ └─────────────┘
-                       │
-              ┌────────▼─────────┐
-              │ FIWARE / MQTT    │
-              │ IoT Data Layer   │
-              └────────┬─────────┘
-                       │
-        ┌──────────────┼────────────────┐
-        │              │                │
-   Wi-Fi AP data   IoT sensors     External APIs
-                                    & web scraping
-
-                       │
-              ┌────────▼─────────┐
-              │ XGBoost Model    │
-              │ Crowd Prediction │
-              └──────────────────┘
-```
-
-*Architecture diagram can be replaced with the project's actual architecture once finalized.*
+<img width="992" height="662" alt="Screenshot 2026-08-30 160756" src="https://github.com/user-attachments/assets/b6ab34cc-cdde-43d6-be12-59753490955f" />
 
 ## Technology Stack
 
